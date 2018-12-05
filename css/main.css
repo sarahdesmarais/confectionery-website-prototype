@@ -192,7 +192,7 @@ footer {
       display: flex;
       justify-content: space-between;
       align-items: center;
-    }
+  }
 
   .top {
     padding: 0;
@@ -211,5 +211,6 @@ footer {
 
   .intro p {
     max-width: 70%;
+  }
 
 }
