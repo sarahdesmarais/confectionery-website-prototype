@@ -200,17 +200,21 @@ footer {
 
   .header h1 {
     display: inline-block;
-    font-size: 1.75rem;
   }
 
   .logo {
     display: inline-block;
-    width: 40px;
+    width: 60px;
     padding-left: 0.5rem;
+    margin: auto;
   }
 
   .intro p {
     max-width: 70%;
+  }
+
+  .nav a {
+    padding: 1em 1.5em;
   }
 
 }
