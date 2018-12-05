@@ -96,6 +96,12 @@ footer {
   color: #fff;
 }
 
+@media only screen and (min-width: 20em) {
+
+  .card:nth-child(3),
+  .card:nth-child(4) {
+    display: none;
+  }
 
 @media only screen and (min-width: 25em) {
 
@@ -112,8 +118,9 @@ footer {
   display: flex;
 }
 
-  .card:nth-child(4) {
-    display: none;
+  .card:nth-child(4),
+  .card:nth-child(3) {
+    display: inline-block;
   }
 
 @media only screen and (min-width: 38em) {
@@ -121,6 +128,20 @@ footer {
   html {
     font-size: 110%;
     line-height: 1.4;
+  }
+
+  .img-flex {
+    width: 30%;
+    margin: 0;
+    display: inline-block;
+  }
+
+  .card {
+    display: inline-block;
+  }
+
+  .card h2 {
+    display: none;
   }
 
 }
