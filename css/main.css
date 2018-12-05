@@ -111,6 +111,16 @@ img {
 footer {
   background-color: #bab5d6;
   color: #fff;
+  padding: 1rem;
+}
+
+.social {
+  width: 30px;
+  display: inline-block;
+}
+
+small {
+  display: block;
 }
 
 @media only screen and (min-width: 20em) {
@@ -137,7 +147,6 @@ footer {
     display: flex;
   }
 
-  .card:nth-child(4),
   .card:nth-child(3) {
     display: block;
   }
@@ -151,17 +160,14 @@ footer {
     line-height: 1.4;
   }
 
-  /* .img-flex {
-    width: 50%;
-    margin: 0;
-    display: inline-block;
+  .card:nth-child(4) {
+    display: block;
   }
 
-  .card {
-    display: inline-block;
-  }
+  .social {
+    width: 40px;
 
-} */
+}
 
 @media only screen and (min-width: 60em) {
 
@@ -179,6 +185,16 @@ footer {
     max-width: 80%;
     margin: 0 auto;
   }
+
+  /* .img-flex {
+    width: 50%;
+    margin: 0;
+    display: inline-block;
+  }
+
+  .card {
+    display: inline-block;
+  } */
 
 }
 
