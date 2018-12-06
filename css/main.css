@@ -27,6 +27,8 @@ img {
 }
 
 .img-flex {
+  width: 100%;
+  display: block;
   border: 2px solid #938eae;
 }
 
@@ -41,12 +43,12 @@ img {
 }
 
 .top {
-  padding: 2rem 0.5rem 1rem;
+  padding: 2rem .5rem 1rem;
 }
 
 .header h1 {
   font-size: 2rem;
-  font-family: "Pacifico", sans-serif;
+  font-family: Pacifico, sans-serif;
   color: #fff;
   text-align: center;
   margin: 0;
@@ -80,7 +82,7 @@ img {
 }
 
 .intro {
-  padding: 0 0.5rem;
+  padding: 0 .5rem;
 }
 
 .intro h2 {
@@ -93,7 +95,7 @@ img {
 
 .card {
   position: relative;
-  padding: 0.5rem;
+  padding: .5rem;
 }
 
 .card h2 {
@@ -103,7 +105,7 @@ img {
   top: 50%;
   margin: 0;
   background-color: rgba(186, 181, 214, .3);
-  border-radius: 0.5rem;
+  border-radius: .5rem;
   padding: 1rem;
   color: #000;
   text-align: center;
@@ -205,6 +207,7 @@ small {
   .cards {
     text-align: center;
   }
+
 }
 
 @media only screen and (min-width: 90em) {
@@ -214,9 +217,9 @@ small {
   }
 
   .header {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
   }
 
   .top {
@@ -230,7 +233,7 @@ small {
   .logo {
     display: inline-block;
     width: 60px;
-    padding-left: 0.5rem;
+    padding-left: .5rem;
     margin: auto;
   }
 
